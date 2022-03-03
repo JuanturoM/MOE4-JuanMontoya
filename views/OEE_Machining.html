@@ -6,28 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OEE Machining</title>
     <link rel="shortcut icon" href="../assets/download.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css2/style.css">
 </head>
 <body>
-    <div class="container-area">
-        <header class="navBackground">
-            <nav class="nav-flex">
-                <a class="logo" href="https://bzo.bosch.com/bzo/en/start_page.html"><img src="../assets/download.png" width="75px" height="50px" alt="Bosch logo"></a>
-                <ul class="column-list">
-					<li><a href="../index.html">Home</a></li>
-                    <li ><a href="#">Machining</a>
-                        <ul>
-                            <li><a href="#">OEE Machining</a></li>
-                            <li><a href="./OEE_DCU.html">OEE Deburring</a></li>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid row">
+                    <a class="navbar-brand col-sm-2 col-md-4 col-lg-6" href="https://bzo.bosch.com/bzo/en/start_page.html"><img class="rounded" src="../assets/download.png" width="75px" height="50px" alt="Logo Bosch"></a>
+                    <button class="navbar-toggler col-sm-2 col-md-4 col-lg-6" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse row" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item col-2">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown col-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Machining
+                                </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">OEE Machining</a></li>
+                                <li><a class="dropdown-item" href="./OEE_DCU.html">OEE Deburring</a></li>
+                            </ul>
+                            </li>
+                            <li class="nav-item dropdown col-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Assembly
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="./OEE.html">OEE</a></li>
+                                    <li><a class="dropdown-item" href="./TOP3.html">TOP3</a></li>
+                                </ul>
+                            </li>
                         </ul>
-                    </li>
-                    <li><a href="">Assembly</a>
-                        <ul>
-                            <li><a href="./OEE.html">OEE</a></li>
-                            <li><a href="./TOP3.html">TOP3</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main class="content-grid content-background">
@@ -36,8 +52,8 @@
                 <p><iframe class="iframe-settings" src="../assets/OEE_Machining.pdf" frameborder="0"></iframe></p>
             </section>
         </main>
-        <footer class="navBackground footer-flex">
-            <a href="#">Go Top</a>
+        <footer>
+            <h2>Powered by Juan Montoya</h2>
         </footer>
     </div>
 </body>

@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+	overflow-x: hidden;
+	font-size: 20px;
+    font-family: "Segoe UI",Arial,sans-serif !important;
+    color: #333;
+    margin: 0px;
+    
+}
+
+.navBackground {
+	background: #fff url(../assets/FONDO.png) left top no-repeat;
+    background-size: 100%;
+	position: sticky;
+	top: 0px;
+    height: 100%;
+}
+
+/* a {
+    text-decoration: none;
+	color: #fff !important;
+} */
+
+ul {
+    list-style: none;
+    text-decoration: none; 
+    text-decoration-color: #fff;
+ }
+
+ul ul {
+    display: none;
+    
+}
+
+ul ul li a {color: white;}
+
+ul li:hover ul {
+	position: relative;
+    display:block;
+    background-color: #fff url(../assets/img/FONDO.png) left top no-repeat !important;
+    background-size: 100%;
+} 
+
+ul ul li {
+    display: block;
+    width:200px;
+    padding: 5px;
+ }
+
+.container-area{
+    display: grid;
+    grid-template-areas: 
+      "header header header"
+      "productos productos productos"
+      "productos productos productos"
+      "productos productos productos"
+      "productos productos productos"
+      "productos productos productos"
+      "productos productos productos"
+      "footer footer footer"
+    ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    height: 100vh;
+    width: 100vw;
+  }
+
+/* header {
+    grid-area: header;
+} */
+nav {
+    background: #fff url(../assets/FONDO.png) left top no-repeat;
+    background-size: 100%;
+    /* color: white; */
+}
+
+footer {
+    background: #fff url(../assets/FONDO.png) left top no-repeat;
+    background-size: 100%;
+    margin-bottom: 1000px;
+}
+
+div {
+    color: white;
+}
+
+/* main {
+    grid-area: productos;
+} */
+
+main {
+    height: 80vh;
+    width: 100vw;
+}
+
+/* footer {
+    grid-area: footer;
+} */
+
+.nav-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.column-list {
+    padding-right: 200px;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+  }
+
+.logo {
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.content-grid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 90%;
+}
+
+main {
+    background-image: url(../assets/AguP.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.section-background {
+    width: 90%;
+    height: 100%;
+	background-color: rgba(255,255,255, 0.7);
+}
+
+h2 {
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.iframe-settings {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 760px){
+
+    header {
+        display: block;
+        /* flex-direction: column; */
+    }
+
+
+    footer {
+        display: none;
+    }
+
+    .container-area {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+}
