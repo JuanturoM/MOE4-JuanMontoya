@@ -13,31 +13,26 @@ body {
     
 }
 
-.navBackground {
+/* .navBackground {
 	background: #fff url(../assets/FONDO.png) left top no-repeat;
     background-size: 100%;
 	position: sticky;
 	top: 0px;
     height: 100%;
-}
-
-/* a {
-    text-decoration: none;
-	color: #fff !important;
 } */
 
-ul {
+/* ul {
     list-style: none;
     text-decoration: none; 
     text-decoration-color: #fff;
- }
+ } */
 
-ul ul {
+/* ul ul {
     display: none;
     
-}
+} */
 
-ul ul li a {color: white;}
+/* ul ul li a {color: white;} */
 
 ul li:hover ul {
 	position: relative;
@@ -52,7 +47,7 @@ ul ul li {
     padding: 5px;
  }
 
-.container-area{
+/* .container-area{
     display: grid;
     grid-template-areas: 
       "header header header"
@@ -68,7 +63,7 @@ ul ul li {
     grid-auto-rows: 1fr;
     height: 100vh;
     width: 100vw;
-  }
+  } */
 
 /* header {
     grid-area: header;
@@ -85,9 +80,9 @@ footer {
     margin-bottom: 1000px;
 }
 
-div {
+/* div {
     color: white;
-}
+} */
 
 /* main {
     grid-area: productos;
@@ -102,27 +97,27 @@ main {
     grid-area: footer;
 } */
 
-.nav-flex {
+/* .nav-flex {
     display: flex;
     flex-direction: row;
     gap: 200px;
     align-items: center;
     justify-content: space-between;
-  }
+  } */
 
-.column-list {
+/* .column-list {
     padding-right: 200px;
     gap: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     position: relative;
-  }
+  } */
 
-.logo {
+/* .logo {
     padding: 30px;
     border-radius: 30px;
-}
+} */
 
 .content-grid {
     display: flex;
