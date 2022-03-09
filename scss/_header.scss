@@ -1,0 +1,22 @@
+header {
+
+    nav {
+        // background: #fff url(../assets/FONDO.png) left top no-repeat;
+        background: #fff $fondo left top no-repeat;
+        background-size: $size;
+        /* color: white; */
+
+        ul li:hover ul {
+            position: relative;
+            display:block;
+            background-color: #fff $fondo left top no-repeat !important;
+            background-size: $size;
+        }
+
+        ul ul li {
+            display: block;
+            width:200px;
+            padding: 5px;
+         }
+    }
+}
